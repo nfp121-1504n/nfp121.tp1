@@ -16,11 +16,9 @@ import java.util.*;
  * @version: 1.6 (shapes)
  */
 public class Canvas {
-    // Note: The implementation of this class (specifically the handling of
-    // shape identity and colors) is slightly more complex than necessary. This
-    // is done on purpose to keep the interface and instance fields of the
-    // shape objects in this project clean and simple for educational purposes.
-
+    
+    
+    
     private static Canvas canvasSingleton;
 
     /**
@@ -208,5 +206,5 @@ public class Canvas {
             graphic.fill(shape);
         }
     }
-
+    
 }

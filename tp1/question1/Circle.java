@@ -10,7 +10,7 @@ import java.awt.geom.*;
  * @version 1.0 (15 July 2000)
  */
 
-public class Circle {
+public class Circle{
     private int diameter;
     private int xPosition;
     private int yPosition;
@@ -20,7 +20,7 @@ public class Circle {
     /**
      * Create a new circle at default position with default color.
      */
-    public Circle() {
+    public Circle(){
         diameter = 30;
         xPosition = 20;
         yPosition = 60;
@@ -166,5 +166,9 @@ public class Circle {
             Canvas canvas = Canvas.getCanvas();
             canvas.erase(this);
         }
+    }
+    public static void main(String[]args){
+        Circle c = new Circle();
+        c.draw();
     }
 }

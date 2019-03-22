@@ -166,4 +166,8 @@ public class Square {
             canvas.erase(this);
         }
     }
+    public static void main(String[]args){
+        Square s = new Square();
+        s.draw();
+    }
 }

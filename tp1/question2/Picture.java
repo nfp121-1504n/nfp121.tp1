@@ -79,8 +79,17 @@ public class Picture {
             wall.changeColor("red");
             window.changeColor("black");
             roof.changeColor("green");
-            sun.changeColor("yellow");
+            sun.changeColor("blue");
         }
+    }
+    
+    
+    public static void main(String argv[]) {
+        Picture p1 = new Picture();
+        p1.draw();
+        p1.setColor();
+        Picture p2 = new Picture();
+        p2.draw();
     }
 
 }
